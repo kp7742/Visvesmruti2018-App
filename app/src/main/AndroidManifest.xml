@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fetr.ac.in.visvesmruti2018">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gms.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".VSApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:clearTaskOnLaunch="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.BaseActivity" />
+        <activity
+            android:name=".activities.VSActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.MapsActivity"
+            android:label="College Maps" />
+        <activity
+            android:name=".activities.AboutActivity"
+            android:label="About Us" />
+        <activity
+            android:name=".activities.ContactActivity"
+            android:label="Contact Us" />
+        <activity
+            android:name=".activities.CodersActivity"
+            android:label="Coders" />
+        <activity
+            android:name=".activities.TimeTableActivity"
+            android:label="Time Table" />
+        <activity
+            android:name=".activities.SponsorActivity"
+            android:label="Sponsors" />
+        <activity
+            android:name=".activities.EventsActivity"
+            android:label="Events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EventPageActivity" />
+        <activity
+            android:name=".activities.WebActivity"
+            android:label="Website" />
+        <activity
+            android:name=".activities.GalleryActivity"
+            android:label="Gallery"/>
+    </application>
+
+</manifest>

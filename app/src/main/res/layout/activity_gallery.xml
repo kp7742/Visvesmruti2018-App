@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".activities.GalleryActivity">
+
+    <TextView
+        android:id="@+id/nointv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/noInternet"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+    <ss.com.bannerslider.views.BannerSlider
+        android:id="@+id/banner_slider2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:hideIndicators="true"
+        app:interval="3000"
+        app:loopSlides="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

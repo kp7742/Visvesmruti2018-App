@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".activities.CodersActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <android.support.v7.widget.CardView
+            android:id="@+id/kuldip"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="@dimen/cardMarginVertical"
+            android:layout_marginLeft="@dimen/cardMarginHorizontal"
+            android:layout_marginRight="@dimen/cardMarginHorizontal"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            app:cardBackgroundColor="@color/about_youtube_color"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:contentPadding="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="111dp"
+                    android:layout_height="118dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginStart="6dp"
+                    android:src="@drawable/d1"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <ImageView
+                    android:id="@+id/email"
+                    android:layout_width="41dp"
+                    android:layout_height="35dp"
+                    android:layout_alignBottom="@+id/profile_image"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/about_icon_email" />
+
+                <ImageView
+                    android:id="@+id/github"
+                    android:layout_width="41dp"
+                    android:layout_height="40dp"
+                    android:layout_alignBottom="@+id/profile_image"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="-4dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginRight="67dp"
+                    app:srcCompat="@drawable/about_icon_github" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/dev1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/data"
+                    android:layout_width="220dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/dev1txt"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:background="@android:color/transparent"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/dhiren"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="@dimen/cardMarginVertical"
+            android:layout_marginLeft="@dimen/cardMarginHorizontal"
+            android:layout_marginRight="@dimen/cardMarginHorizontal"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            app:cardBackgroundColor="@color/about_facebook_color"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:contentPadding="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image2"
+                    android:layout_width="111dp"
+                    android:layout_height="118dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginStart="6dp"
+                    android:src="@drawable/d2"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <ImageView
+                    android:id="@+id/email2"
+                    android:layout_width="41dp"
+                    android:layout_height="35dp"
+                    android:layout_alignBottom="@+id/profile_image2"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/about_icon_email" />
+
+                <ImageView
+                    android:id="@+id/github2"
+                    android:layout_width="41dp"
+                    android:layout_height="40dp"
+                    android:layout_alignBottom="@+id/profile_image2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="-4dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginRight="67dp"
+                    app:srcCompat="@drawable/about_icon_github" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/dev2"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/data2"
+                    android:layout_width="220dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/dev2txt"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:background="@android:color/transparent"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/darshan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="@dimen/cardMarginVertical"
+            android:layout_marginLeft="@dimen/cardMarginHorizontal"
+            android:layout_marginRight="@dimen/cardMarginHorizontal"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            app:cardBackgroundColor="@color/about_github_color"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:contentPadding="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image3"
+                    android:layout_width="111dp"
+                    android:layout_height="118dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginStart="6dp"
+                    android:src="@drawable/d3"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <ImageView
+                    android:id="@+id/email3"
+                    android:layout_width="41dp"
+                    android:layout_height="35dp"
+                    android:layout_alignBottom="@+id/profile_image3"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/about_icon_email" />
+
+                <ImageView
+                    android:id="@+id/github3"
+                    android:layout_width="41dp"
+                    android:layout_height="40dp"
+                    android:layout_alignBottom="@+id/profile_image3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="-4dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginRight="67dp"
+                    app:srcCompat="@drawable/about_icon_github" />
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/dev3"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/data3"
+                    android:layout_width="220dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/dev3txt"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
